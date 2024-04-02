@@ -1,0 +1,100 @@
+.section-one-mobile-screen,
+.section-one-tablet-screen,
+.section-one-large-screen {
+    width: 100%;
+
+    .page-title {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .cat-images-class {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        place-items: center;
+
+        .cat-image {
+            font-size: 3vw;
+            border-radius: 10px;
+            max-width: 220px;
+
+        }
+
+        .loading-text-class {
+            width: 100%;
+            text-align: center;
+
+            .loading-text-span {
+                font-size: 1.5vw;
+
+                animation-name: LoadingTextAnimation;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+
+        
+        }
+        
+    }
+}
+
+.section-one-tablet-screen {
+    width: 100%;
+
+    .page-title {
+        font-size: 4vw;
+    }
+
+    .cat-images-class {
+        grid-template-columns: repeat(2, 1fr);
+
+        .loading-text-class {
+            width: 100%;
+            text-align: center;
+
+            .loading-text-span {
+                font-size: 3vw;
+            }
+        }
+        
+    }
+
+}
+
+.section-one-mobile-screen {
+    width: 100%;
+
+    .page-title {
+        font-size: 5vw;
+    }
+
+    .cat-images-class {
+        grid-template-columns: repeat(1, 1fr);
+
+        .loading-text-class {
+            width: 100%;
+            text-align: center;
+
+
+            .loading-text-span {
+                font-size: 5vw;
+            }
+        }
+        
+    }
+}
+
+//Animation text for "Loading..."
+@keyframes LoadingTextAnimation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .5;
+    }
+}

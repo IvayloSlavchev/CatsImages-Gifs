@@ -1,0 +1,36 @@
+.section-three-mobile-screen,
+.section-three-tablet-screen,
+.section-three-large-screen {
+    width: 100%;
+
+    .random-image-with-blur-class {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        margin-top: 3rem;
+        gap: 1rem;
+
+        .loading-span {
+            text-align: center;
+            font-size: 1.5vw;
+        }
+
+        .random-cat-image {
+            border-radius: 10px;
+        }
+
+        .random-image-button {
+            padding: .3rem;
+            font-size: 1.2vw;
+            background: none;
+            transition: 400ms;
+            cursor: pointer;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .random-image-button:hover {
+            background-color: white;
+        }
+    }
+}
