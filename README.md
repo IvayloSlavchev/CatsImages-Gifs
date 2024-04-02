@@ -2,12 +2,6 @@
 
 Welcome to the Cat Images Website repository! This is a simple website where you can browse and enjoy adorable cat images. Whether you're a cat lover or just in need of some feline cuteness, this site is sure to brighten your day!
 
-## Preview
-
-Here's a glimpse of what the website looks like:
-
-![Cat Images Website Preview](preview.png)
-
 ## Features
 
 - **Browse Cat Images**: Explore a vast collection of high-quality cat images.
